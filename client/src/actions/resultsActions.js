@@ -12,3 +12,10 @@ export const fetchResults = (query) => {
         }
     }
 
+
+    export const search = (userInput) => {
+        return {
+            type: 'CREATE_SEARCH',
+            userInput: userInput
+        }
+    }
