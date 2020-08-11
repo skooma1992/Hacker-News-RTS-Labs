@@ -1,6 +1,6 @@
 {
   "homepage": "http://skooma1992.github.io/Hacker-News-RTS-Labs",
-  "name": "client",
+  "name": "hacker-news",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
