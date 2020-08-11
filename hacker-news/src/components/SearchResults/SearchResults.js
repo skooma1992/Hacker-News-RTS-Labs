@@ -6,7 +6,7 @@ const mapStateToProps = (state) => {
         results: state.results
     }
 }
- 
+
 class SearchResults extends Component {
 
     handleSearchResults = () => {
@@ -29,7 +29,7 @@ class SearchResults extends Component {
     }
 
     render() {
-        return(
+        return (
             <div className="search-results">
                 <div className="row">
                     <div className="col-12">

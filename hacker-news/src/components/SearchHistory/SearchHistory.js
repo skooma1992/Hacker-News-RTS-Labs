@@ -22,7 +22,6 @@ class SearchHistory extends Component {
     render() {
         const { searches } = this.props;
         return (
-
             <div className="search-results">
                 <div className="row">
                     <div className="col-12">
@@ -42,7 +41,7 @@ class SearchHistory extends Component {
                     </div>
                 </div>
             </div>
-        
+
         )
     }
 }

@@ -28,7 +28,7 @@ class SearchBar extends Component {
             searchInput: createSearchInput
         });
     }
-
+// Taking input and passing through api
     handleFormSubmit = (event) => {
         event.preventDefault();
         this.props.search(this.state.searchInput);
