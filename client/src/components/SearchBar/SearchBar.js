@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { search } from '../../actions/searchActions';
-import { fetchResults } from '../../actions/resultsActions';
+
+import { fetchResults, search  } from '../../actions/resultsActions';
 
 const mapStateToProps = (state) => {
     return {
@@ -48,8 +48,8 @@ class SearchBar extends Component {
                      <div className="row m-3">
                      <div className="col-12 p-1 bg-light">
                      <form className="form-inline" onSubmit={this.handleFormSubmit}>
-                        <input className="form-control mr-sm-2" type="search" onChange={this.handleInputChange} placeholder="Search" aria-label="Search"></input>
-                        <button className="btn  my-2 " type="submit">Search</button>
+                        <input className="form-control mr-sm-2" type="search" onChange={this.handleInputChange} placeholder="Search" ></input>
+                        <button className="btn btn-primary my-2 " type="submit">Search</button>
                     </form>
                     </div>
                 </div>

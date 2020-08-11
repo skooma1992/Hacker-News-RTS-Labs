@@ -17,7 +17,7 @@ class App extends Component {
               <SearchResults />
             </div>
             <div className="col-4">
-              <SearchHistory />
+              <SearchHistory /> 
             </div>
           </div>
         </div>
