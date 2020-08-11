@@ -10,3 +10,8 @@
 ## Use
 
 This app allows you to search through the Algolia api.  You can find the documentation here https://hn.algolia.com/api .  It allows you to search through articles that have been hosted on the Hacker News website.  This app also stores searches in the redux store where you are able to click on a previous search and perform the search again. 
+
+## Connect with me here. 
+
+ [Linkedin](https://www.linkedin.com/in/jake-upson-766ab7192/)
+ [Portfolio](https://skooma1992.github.io/Portfolio/)
