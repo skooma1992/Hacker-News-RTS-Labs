@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
 import { fetchResults, search  } from '../../actions/resultsActions';
 
 const mapStateToProps = (state) => {
